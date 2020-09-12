@@ -16,7 +16,6 @@ time, mark, audio, video, button, input {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline;
   font-family: Crimson text;
 }
 
@@ -27,32 +26,18 @@ body{
 header{
     background-color: darkred;
     color: whitesmoke;
-    height: 3rem;
-    vertical-align: bottom ;
-}
-
-header.div{
-    min-height: inherit;
-    display: table-cell;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 3em;
 }
 
 .content-dado{
     width: 100%;
-    margin-top: 80px;
-}
-
-input{
-    width: 3rem;
-    margin: 1rem 0;
-    text-align: center;
-    font-size: medium;
-    box-shadow: red;
-    border-style: dotted;
-    border-color: darkred
+    margin-top: 5rem;
 }
 
 .btn-dado{
-    margin: 10px;
+    padding: 3rem;
     width: 5rem;
     display: inline-block;
 }
